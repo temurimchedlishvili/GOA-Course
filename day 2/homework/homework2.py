@@ -1,4 +1,12 @@
-name = input("enter your name")
-surname = input("enter your surname")
+misalmeba = "gamarjoba" # es aris stringi
+elementi = "elementi "*10 
+misalmeba2 = "hello" +  " " + "world"
 
-print("hello" + name + surname)
+is_False = 10<5
+is_True = 15>10
+
+print(misalmeba)
+print(elementi)
+print(misalmeba2)
+print(is_False)
+print(is_True)
