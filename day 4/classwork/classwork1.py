@@ -37,8 +37,23 @@ res = 0
 
 num1 = int(input("enter you first number 1: "))
 num2 = int(input("enter you first number 2: "))
-num3 = int(input("enter you first number 3: "))
-num4 = int(input("enter you first number 4: "))
-num5 = int(input("enter you first number 5: "))
-sashualo = (num1 + num2 + num3 + num4)
-print(sahualo=(num1 + num2 + num3 + num4)// 5)
+if num1>num2:
+    print(num1)
+else:
+    print(num2)
+
+# classwork4
+
+num = int(input("enter you number"))
+if num%5 ==0:
+    print(num)
+else:
+    print(0)
+
+#classwork 5
+
+saukune = int(input("enter you century"))   
+if saukune > 2000:
+    print("axali saukune")
+else:
+    print("gasuli saukune")               
