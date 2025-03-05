@@ -1,1 +1,0 @@
-#gadasakitxi iyo masala

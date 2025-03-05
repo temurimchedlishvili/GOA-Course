@@ -1,1 +1,0 @@
-# unda gveyura videoebistvis
