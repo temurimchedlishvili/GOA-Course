@@ -1,0 +1,1 @@
+# ver movvaswre dasqrinva, magram gavugzavne gaketebuli davaleba baton andrias
