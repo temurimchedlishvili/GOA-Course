@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="hw2.css">
+    <link rel="stylesheet" href="prism.css">
+</head>
+<body>
+    <!-- ახსენით რა განსხვავებაა inline/internal/external CSS-ს შორის. -->
+    
+    <ul>
+        <li>
+            <div class="li-name">
+                <span>inline</span> css
+            </div>
+
+            <pre><code class="language-markup">&lt;p style="color: red"&gt; გამარჯობა &lt;/p&gt;</code></pre>
+
+            <div class="li-name">
+                განმარტება | <span>inline</span> css
+            </div>
+        </li>
+
+        <li>
+            <div class="li-name">
+                <span>internal</span> css
+            </div>
+
+            <pre><code class="language-markup">&lt;style&gt;p { color: red }&lt;/style&gt;</code></pre>
+
+            <div class="li-name">
+                განმარტება | <span>internal</span> css
+            </div>
+        </li>
+
+        <li>
+            <div class="li-name">
+                <span>external</span> css
+            </div>
+
+            <pre><code class="language-css">p { color: red }</code></pre>
+
+
+            <div class="li-name">
+                განმარტება | <span>external</span> css
+            </div>
+        </li>
+    </ul>
+
+
+    <!-- JS -->
+    <script src="prism.js"></script>
+    <script src="https:///prismjs@v1.x/plugins/autoloader/prism-autoloader.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+selector --> {} -->
+attribute name --> : --> value
+
+
+<!-- inline - insie tag
+internal - inside head tag
+external - when we style from external source  (example: style.css file) -->
+
+
+
+<!-- id selector(#), class selector(.), tag selector() -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #tag-1 {
+            color: green;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <p style="color: blue;">styled inline</p> <!-- ეს იწერება attribute-ის სახით style-ში მაგ: color: red; ამას ქვია inline გასტილვა -->
+    <p id="tag-1">styled internal</p> <!-- ეს იწერება ცალკე container თეგში <style></style>-ში აქ ვწერთ css-ს და ჩვენ გვჭირდერბა selector-ი მაგ id selector-ი ან class selector კიდევ არის ერთი ვარტიანტი tag selector-ი -->
+    <p id="tag-2">styled external</p> <!-- ეს იწერება ცალკე ფაილში index.css-ში რომელიც უმეტესად გამოიყენება და იგივე ნაირად მუშაბს css-ი როგორც internal-ში -->
+</body>
+</html>
