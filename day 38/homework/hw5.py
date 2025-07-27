@@ -1,0 +1,1 @@
+# წაიკითხეთ დამატებითი მასალა - https://www.w3schools.com/colors/colors_hexadecimal.asp

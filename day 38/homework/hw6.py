@@ -1,0 +1,1 @@
+# წაიკითხეთ დამატებითი მასალა - https://www.w3schools.com/css/css_specificity.asp
