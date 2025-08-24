@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Static vs Relative Positioning მაგალითი</title>
+<style>
+.container {
+    border: 2px solid #333;
+    padding: 20px;
+    width: 300px;
+}
+
+.static-box {
+    position: static; /* ნაგულისხმევი */
+    background-color: lightblue;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.relative-box {
+    position: relative;
+    top: 20px;  /* გადაადგილება ქვემოთ 20px */
+    left: 30px; /* გადაადგილება მარჯვნივ 30px */
+    background-color: lightcoral;
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<div class="static-box">
+    ეს არის <strong>static</strong> პოზიციონირებული div.  
+    იგი არ იცვლება თავისი ნორმალური პოზიციიდან.
+</div>
+
+<div class="relative-box">
+    ეს არის <strong>relative</strong> პოზიციონირებული div.  
+    იგი გადაადგილებულია 20px ქვემოთ და 30px მარჯვნივ.
+</div>
+</div>
+
+</body>
+</html>

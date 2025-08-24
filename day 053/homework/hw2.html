@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Table Fonts</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            background-color: #2b2f3a;
+            color: #fff;
+            text-align: left;
+        }
+
+        th, td {
+            padding: 12px 15px;
+        }
+
+        th {
+            border-bottom: 2px solid #444;
+        }
+
+        /* სხვადასხვა ხაზის სტილი */
+        tr:nth-child(1) td {
+            font-family: Arial, sans-serif;
+            font-weight: normal;
+        }
+
+        tr:nth-child(2) td {
+            font-family: 'Times New Roman', serif;
+            font-weight: bold;
+        }
+
+        tr:nth-child(3) td {
+            font-family: 'Courier New', monospace;
+            font-weight: 300;
+        }
+
+        tr:nth-child(4) td {
+            font-family: Verdana, sans-serif;
+            font-weight: 700;
+        }
+
+        tr:nth-child(5) td {
+            font-family: Georgia, serif;
+            font-weight: 500;
+        }
+
+        tr:nth-child(6) td {
+            font-family: Tahoma, sans-serif;
+            font-weight: 900;
+        }
+
+        /* შერეულ ფერები */
+        tr:nth-child(odd) {
+            background-color: #2b2f3a;
+        }
+
+        tr:nth-child(even) {
+            background-color: #323748;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Sites</th>
+                <th>Views</th>
+                <th>Clicks</th>
+                <th>Average</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Google</td>
+                <td>9518</td>
+                <td>6369</td>
+                <td>01:32:50</td>
+            </tr>
+            <tr>
+                <td>Twitter</td>
+                <td>7326</td>
+                <td>10437</td>
+                <td>00:51:22</td>
+            </tr>
+            <tr>
+                <td>Amazon</td>
+                <td>4162</td>
+                <td>5327</td>
+                <td>00:24:34</td>
+            </tr>
+            <tr>
+                <td>Linkedin</td>
+                <td>3654</td>
+                <td>2961</td>
+                <td>00:12:10</td>
+            </tr>
+            <tr>
+                <td>CodePen</td>
+                <td>2002</td>
+                <td>4135</td>
+                <td>00:46:19</td>
+            </tr>
+            <tr>
+                <td>GitHub</td>
+                <td>4623</td>
+                <td>3486</td>
+                <td>00:31:52</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different Fonts and Weights</title>
+    <style>
+        /* პირველი პარაგრაფი */
+        p:nth-child(1) {
+            font-family: Arial, sans-serif;
+            font-weight: normal; /* 400 */
+        }
+
+        /* მეორე პარაგრაფი */
+        p:nth-child(2) {
+            font-family: 'Times New Roman', serif;
+            font-weight: bold; /* 700 */
+        }
+
+        /* მესამე პარაგრაფი */
+        p:nth-child(3) {
+            font-family: 'Courier New', monospace;
+            font-weight: 300; /* Light */
+        }
+
+        /* მეოთხე პარაგრაფი */
+        p:nth-child(4) {
+            font-family: Verdana, sans-serif;
+            font-weight: 900; /* Extra Bold */
+        }
+    </style>
+</head>
+<body>
+    <p>ეს არის პირველი პარაგრაფი - Arial, Normal.</p>
+    <p>ეს არის მეორე პარაგრაფი - Times New Roman, Bold.</p>
+    <p>ეს არის მესამე პარაგრაფი - Courier New, Light.</p>
+    <p>ეს არის მეოთხე პარაგრაფი - Verdana, Extra Bold.</p>
+</body>
+</html>
+
+<!-- აღწერა:
+
+თითო პარაგრაფს აქვს განსხვავებული font-family და font-weight.
+
+font-weight შეიძლება იყოს სიტყვით (normal, bold) ან ციფრით (100, 300, 400, 700, 900).
+
+nth-child() საშუალებას გვაძლევს სტილი მივანიჭოთ კონკრეტულ პარაგრაფს. -->
