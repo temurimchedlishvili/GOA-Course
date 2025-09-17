@@ -1,0 +1,32 @@
+    /*  BLOCK ელემენტი */
+    .block {
+      display: block;             /* ახალ ხაზზე გადადის და იკავებს მთელ სიგანეს */
+    background: lightcoral;
+    width: 200px;
+    height: 50px;
+      margin: 10px 0;             /* ზევით/ქვევით კარგად ჩანს */
+    text-align: center;
+      line-height: 50px;          /* ტექსტი ვერტიკალურად ცენტრში */
+    color: white;
+    font-weight: bold;
+    }
+
+    /*  INLINE ელემენტი */
+    .inline {
+      display: inline;            /* ერთ ხაზზეა სხვა ელემენტებთან */
+    background: lightblue;
+    padding: 5px;
+      margin: 5px;                /* ზევით/ქვევით margin-ს დიდი ეფექტი არ აქვს */
+    }
+
+    /*  INLINE-BLOCK ელემენტი */
+    .inline-block {
+      display: inline-block;      /* inline-ის მსგავსად დგას, მაგრამ ზომის შეცვლა შეიძლება */
+    background: lightgreen;
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    }

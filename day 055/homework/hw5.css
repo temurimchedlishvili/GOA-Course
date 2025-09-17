@@ -1,0 +1,22 @@
+.block-div {
+    width: 150px;
+    height: 50px;
+    background: red;
+      display: block;   /* BLOCK ტიპის ელემენტი */
+    margin-bottom: 10px;
+    }
+
+    .inline-div {
+    width: 150px;
+    height: 50px;
+    background: blue;
+      display: inline;  /* INLINE ტიპის ელემენტი */
+    margin-bottom: 10px;
+    }
+
+    .inline-block-div {
+    width: 150px;
+    height: 50px;
+    background: green;
+      display: inline-block; /* INLINE-BLOCK ტიპის ელემენტი */
+    }

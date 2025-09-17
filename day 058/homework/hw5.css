@@ -1,0 +1,7 @@
+/* inline ელემენტებს ვიზუალური ფონი რომ გამოჩნდეს */
+    span, a, b, i, strong {
+    background-color: lightgreen;
+    padding: 5px;
+    border: 1px solid green;
+    margin: 3px;
+    }

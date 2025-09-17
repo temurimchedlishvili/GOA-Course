@@ -1,0 +1,22 @@
+body {
+    display: flex;
+      justify-content: center; /* ჰორიზონტალური ცენტრი */
+      align-items: center;    /* ვერტიკალური ცენტრი */
+      height: 100vh;          /* ეკრანის სიმაღლე */
+      flex-direction: column; /* ელემენტები ქვევით ჩამოეწყვოს */
+      background-color: #f0f8ff; /* ნაზი ცისფერი ფონი */
+    }
+
+    p:first-child {
+    font-family: "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+      color: #1e90ff; /* ლურჯი */
+    }
+
+    p:last-child {
+    font-family: "Georgia", serif;
+    font-weight: lighter;
+    font-size: 20px;
+    color: chocolate;/* ნარინჯისფერი */
+    }

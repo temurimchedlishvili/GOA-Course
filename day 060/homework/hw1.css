@@ -1,0 +1,7 @@
+    .box {
+    width: 150px;              /* სიგანე */
+    padding: 20px;             /* შიდა ზღვარი */
+    border: 5px solid blue;    /* ჩარჩო */
+    box-sizing: border-box;    /* padding და border შედის width-ში */
+    background-color: lightgray;
+    }

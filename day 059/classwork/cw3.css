@@ -1,0 +1,32 @@
+    /* 🟥 BLOCK */
+    .block {
+      display: block; /* ახალ ხაზზე გადადის და იკავებს მთელ სიგანეს */
+      background: lightcoral;
+      width: 200px;
+      height: 50px;
+      margin-bottom: 10px;
+      text-align: center;
+      line-height: 50px;
+      color: white;
+      font-weight: bold;
+    }
+
+    /* 🟦 INLINE */
+    .inline {
+      display: inline; /* დგას სხვა ელემენტებთან ერთ ხაზზე */
+      background: lightblue;
+      padding: 5px;
+      margin: 5px; /* ზევით/ქვევით ეფექტი ნაკლებია */
+    }
+
+    /* 🟩 INLINE-BLOCK */
+    .inline-block {
+      display: inline-block; /* დგას ხაზში, მაგრამ შეგვიძლია ზომის შეცვლა */
+      background: lightgreen;
+      width: 120px;
+      height: 50px;
+      margin: 5px;
+      text-align: center;
+      line-height: 50px;
+      font-weight: bold;
+    }

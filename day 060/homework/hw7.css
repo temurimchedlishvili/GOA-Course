@@ -1,0 +1,8 @@
+    .normal {
+    font-weight: 400; /* ნაგულისხმევი სიმძიმე */
+    font-size: 20px;
+    }
+    .bold {
+      font-weight: 700; /* გამBoldებული ტექსტი */
+    font-size: 20px;
+    }

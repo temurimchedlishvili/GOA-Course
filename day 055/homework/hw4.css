@@ -1,0 +1,8 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+      padding: 30px;              /* შიგნით დაშორება */
+      border: 10px solid black;   /* საზღვარი */
+      margin: 40px;               /* გარე დაშორება */
+    }

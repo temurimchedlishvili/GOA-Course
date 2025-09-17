@@ -1,0 +1,6 @@
+    .box {
+    width: 300px;               /* ყუთის სიგანე */
+    border: 2px solid black;    /* ჩარჩო */
+    padding: 30px;              /* შიდა სივრცე ტექსტისთვის */
+    background-color: lightblue;
+    }

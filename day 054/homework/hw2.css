@@ -1,0 +1,12 @@
+ /* ::placeholder - ცვლის input-ის შიგნით არსებული დროებითი ტექსტის (placeholder) სტილს */
+input::placeholder {
+      color: gray; /* ფერი ხდება ნაცრისფერი */
+      font-style: italic; /* ტექსტი დახრილი ხდება */
+    }
+
+    /* :focus - როცა ელემენტს ვაწვებით ან მასში ტექსტის ჩაწერას ვიწყებთ */
+input:focus {
+      border: 2px solid blue; /* ჩარჩო ლურჯი ხდება */
+      outline: none; /* სტანდარტული გარშემო ხაზის მოცილება */
+      background-color: #eef; /* ფონიც ღია ლურჯი ხდება */
+    }

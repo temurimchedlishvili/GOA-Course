@@ -1,0 +1,30 @@
+    /* მთლიანი გვერდის საწყისი ზომა */
+    html {
+      font-size: 16px;   /* 1rem = 16px */
+    }
+
+    /* rem გამოყენებით */
+    h1 {
+      font-size: 2rem;   /* 32px, ყოველთვის html-ზეა დამოკიდებული */
+      color: darkblue;
+    }
+
+    p {
+      font-size: 1rem;   /* 16px */
+      color: darkgreen;
+    }
+
+    button {
+      font-size: 1.5rem; /* 24px */
+      padding: 0.5em 1em; /* em → დამოკიდებულია თვითონ button-ის ზომაზე */
+      background: #4dabf7;
+      border: none;
+      border-radius: 6px;
+      color: white;
+    }
+
+    /* em გამოყენებით (სადაც განსხვავება ჩანს) */
+    .em-example {
+      font-size: 2em;   /* დამოკიდებულია მშობლის ზომაზე */
+      color: darkred;
+    }

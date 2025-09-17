@@ -1,0 +1,8 @@
+    .underline {
+      text-decoration: underline; /* ქვეშგასმული ტექსტი */
+      font-size: 20px;
+    }
+    .linethrough {
+      text-decoration: line-through; /* ხაზგადასმული ტექსტი */
+      font-size: 20px;
+    }

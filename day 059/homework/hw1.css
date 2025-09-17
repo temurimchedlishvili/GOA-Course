@@ -1,0 +1,31 @@
+    /* კონტეინერი — ცენტრში მოყვანისთვის */
+    .container{
+      display: flex;
+      gap: 20px;              /* ბლოკებს შორის فاصله */
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      background: #f7f7f7;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+
+    /* საერთო წესები ყველა ბლოკისთვის */
+    .box{
+      /* დამატებითი ვიზუალური სტილი */
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      /* ყველაზე მთავარი: კვადრატისთვის */
+      aspect-ratio: 1 / 1;    /* გარანტირებს სიმაღლისა და სიგანის თანაფარდობას (კვადრატი) */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: 600;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+
+    /* ინდივიდუალური სიგანეები (თქვენმა მოთხოვნისამებრ) */
+    .box1 { width: 100px; background: #ff6b6b; }  /* წითური */
+    .box2 { width: 150px; background: #4dabf7; }  /* ცისფერი */
+    .box3 { width: 200px; background: #63e6be; }  /* მწვანე */

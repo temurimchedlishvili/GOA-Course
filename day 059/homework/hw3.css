@@ -1,0 +1,22 @@
+
+    .container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+    }
+
+    .box {
+      height: 100px;   /* სიმაღლე ყველა ბლოკისთვის ერთნაირი */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 8px;
+    }
+
+    .box1 { width: 100px; background: #ff6b6b; }
+    .box2 { width: 200px; background: #4dabf7; }
+    .box3 { width: 300px; background: #63e6be; }

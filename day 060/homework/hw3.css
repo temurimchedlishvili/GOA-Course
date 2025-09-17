@@ -1,0 +1,12 @@
+    .container {
+      display: flex; /* გვერდიგვერდ დალაგება */
+    }
+    .box {
+    width: 150px;
+    height: 150px;
+    background-color: lightcoral;
+    border: 2px solid black;
+    }
+    .box + .box {
+      margin-left: 20px; /* მეორე ყუთს მარცხნივ 20px */
+    }

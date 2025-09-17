@@ -1,0 +1,12 @@
+    .video-container {
+      width: 80%;              /* სიგანე */
+      aspect-ratio: 16 / 9;    /* ფორმატი 16:9 */
+      background: #333;        /* ფონი, რომ ფორმა გამოჩნდეს */
+      margin: 40px auto;       /* ცენტრში მოყვანა */
+      border-radius: 12px;     /* ლამაზი კუთხეები */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+    }

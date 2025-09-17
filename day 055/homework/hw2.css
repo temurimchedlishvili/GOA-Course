@@ -1,0 +1,18 @@
+/* პირველი div */
+    .box1 {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+      margin: 50px;   /* გარე დაშორება – 50px */
+    /* ამ margin-ის გამო პირველი div შორდება გვერდის ზღვარს 
+         და ასევე მეორე div-საც 50px-ით ქვევით სწევს */
+    }
+
+    /* მეორე div */
+    .box2 {
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    /* აქ margin არ აქვს, მაგრამ მაინც ქვემოთ არის,
+         რადგან პირველი div-ს აქვს margin-bottom: 50px */
+    }
