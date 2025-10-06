@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Overflow მაგალითები</title>
+<style>
+.box {
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 5px;
+}
+
+  /* overflow: visible */
+.visible1 { overflow: visible; background-color: #fdd; }
+.visible2 { overflow: visible; background-color: #fee; }
+
+  /* overflow: hidden */
+.hidden1 { overflow: hidden; background-color: #dfd; }
+.hidden2 { overflow: hidden; background-color: #efe; }
+
+  /* overflow: auto */
+.auto1 { overflow: auto; background-color: #ddf; }
+.auto2 { overflow: auto; background-color: #eef; }
+
+  /* overflow: scroll */
+.scroll1 { overflow: scroll; background-color: #ffd; }
+.scroll2 { overflow: scroll; background-color: #ffe; }
+</style>
+</head>
+<body>
+
+<h3>overflow: visible</h3>
+<div class="box visible1">გრძელი ტექსტი გადის საზღვარს</div>
+<div class="box visible2"><img src="https://via.placeholder.com/200x100" alt="Image"></div>
+
+<h3>overflow: hidden</h3>
+<div class="box hidden1">გრძელი ტექსტი დაიჭრება კონტეინერში</div>
+<div class="box hidden2"><img src="https://via.placeholder.com/200x100" alt="Image"></div>
+
+<h3>overflow: auto</h3>
+<div class="box auto1">გრძელი ტექსტი, scroll გამოჩნდება საჭიროების შემთხვევაში</div>
+<div class="box auto2"><img src="https://via.placeholder.com/200x100" alt="Image"></div>
+
+<h3>overflow: scroll</h3>
+<div class="box scroll1">გრძელი ტექსტი, scroll ბარები ყოველთვის გამოჩნდება</div>
+<div class="box scroll2"><img src="https://via.placeholder.com/200x100" alt="Image"></div>
+
+</body>
+</html>
