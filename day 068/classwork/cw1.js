@@ -1,0 +1,1 @@
+// ver movaswari qlasworqis dawera codewarsi iyo 

@@ -1,0 +1,30 @@
+// ელემენტების მოძებნა DOM-ში
+
+document.getElementById()            // ეძებს ელემენტს ID-ით
+document.getElementsByClassName()    // ეძებს class-ით (აბრუნებს მასივის მსგავს კოლექციას)
+document.getElementsByTagName()    // ეძებს თეგით (მაგ: 'div', 'p', 'h1' ...)
+
+// თანამედროვე მოძებნის მეთოდები
+
+document.querySelector()           // აბრუნებს პირველ ემთხვევას (CSS selector-ის მიხედვით)
+document.querySelectorAll()       // აბრუნებს ყველა ემთხვევას (CSS selector-ის მიხედვით)
+
+// შიგთავსის შეცვლა
+
+element.innerText               // ცვლის ტექსტს
+element.innerHTML               // ცვლის HTML შიგთავსს
+
+// სტილის შეცვლა
+
+element.style                   // ცვლის CSS სტილს (მაგ: element.style.color = "red")
+
+// ატრიბუტები
+
+element.setAttribute()          // ამატებს/ცვლის ატრიბუტს
+element.getAttribute()          // კითხულობს ატრიბუტს
+
+// ელემენტის მანიპულაცია
+
+document.createElement()        // ქმნის ახალ HTML ელემენტს
+element.appendChild()           // ამატებს ელემენტს DOM-ში (ბოლოში)
+element.remove()                // შლის ელემენტს DOM-დან

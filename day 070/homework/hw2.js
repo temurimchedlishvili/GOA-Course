@@ -1,0 +1,1 @@
+document.getElementById("box").innerHTML = "<b>სალამი!</b> <i>როგორ ხარ?</i>";
